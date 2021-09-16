@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,300&display=swap" rel="stylesheet');
+
+body {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    background: #eeeeee;
+    font-size: 18px;
+    height: 100vh;
+}
+
+.btn-fail {
+    margin-left: 0 !important; 
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+
+    .logo {
+        width: 120px;
+    }
+    h1 {
+        margin: 1em 0;
+    }
+    p {
+        line-height: 1.7;
+    }
+    .left {
+        background: linear-gradient(160deg, #F24343 0%, #EC7272 100%);
+        padding: 1em;
+
+        p, h1 {
+            color: white;
+        }
+
+    }
+
+    .right p {
+        margin: 2em 0 1em;
+    }
+
+    .light {
+        color: #ffffff !important;
+        opacity: 0.7;
+        margin-top: 2em;
+    }
+
+    input, button { 
+        width: calc(100% - 3em);
+        padding: .5em;
+        font-size: 1.3rem;
+        outline: none;
+        margin: 1em;
+        border: none;
+    }
+
+    button {
+        width: calc(100% - 2em);
+        background: #F24343;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.attention {
+    width: 100%;
+    margin: .5em auto 0;
+    text-align: center;
+
+    .me {
+        margin: 2em;
+        width: 3em;
+        border-radius: 50%;
+    }
+    .arrow {
+        width: 10em;
+    }
+}
+
+.sub {
+    font-weight: 700;
+}
+
+
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: 20px;
+    }
+
+    button{
+        width: 60% !important;
+    }
+
+    input {
+        width: calc(60% - 1em) !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .logo {
+        margin: 1em 0;
+    }
+
+    p {
+        line-height: 1.7 !important;
+    }
+    
+    .inner {
+        display: grid;
+        grid-template-columns: 55% auto;
+
+        .left {
+            text-align: left;
+            height: 100vh;
+            padding: 0 2em;
+            display: grid;
+
+            .content {
+                padding: 0 3em;
+            }
+            h1 {
+                font-size: 2.4em;
+                margin: 0;
+
+                span {
+                    display: block;
+                }
+            }
+        }
+
+        .right {
+            text-align: right;
+            align-self: center;
+            padding: 0 2em 1.5em;
+            justify-self: center;
+
+            input {
+                width: calc(100% - 1em) !important;
+                margin: 1em 0;
+            }
+            button {
+               width: 100% !important;
+                margin: 0;
+            }
+        }
+    }
+    
+    .proto-container {
+        clip-path: inset(0% 45% 0 0);
+        position: absolute;
+        top: 20%;
+        height: 70%;
+        z-index: 0;
+        width: 100%;
+        pointer-events: none;
+
+        .proto {
+            border: 3px solid rgba(255, 255, 255, 0.1);
+            width: 19%;
+            height: 80%;
+            float: left;
+            transform: translateX(10%);
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1600px) {
+    body {
+        font-size: 22px;
+    }
+    .content {
+        padding: 0 6em !important;
+    }
+    .right {
+        padding: 0 !important;
+    }
+}

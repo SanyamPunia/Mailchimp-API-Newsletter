@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter Signup</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="proto-container">
+      <div class="proto"></div>
+      <div class="proto"></div>
+      <div class="proto"></div>
+      <div class="proto"></div>
+    </div>
+
+    <div class="container">
+      <div class="inner">
+        <div class="left">
+          <img src="images/logo-white.svg" alt="mxle-logo" class="logo" />
+
+          <div class="content">
+            <h1>Welcome <span>to my Newsletter!</span></h1>
+
+            <p>
+              Thank you for checking out this page. Feel free to join the
+              Newsletter to get updates on whenever I upload new music and post
+              about any of my stuff!
+            </p>
+            <p class="light">*will be sending quality content only :)</p>
+          </div>
+        </div>
+        <div class="right">
+          <p>Get notified by Subscribing to the Newsletter!</p>
+          <form action="/signup" method="POST">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="your email"
+            />
+            
+          <button type="submit">Subscribe</button>
+          </form>
+
+          <div class="attention">
+            <img src="images/man.png" alt="Sanyam Avatar" class="me" />
+            <img
+              src="images/arrow.svg"
+              alt="Arrow poiting to email form"
+              class="arrow"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
