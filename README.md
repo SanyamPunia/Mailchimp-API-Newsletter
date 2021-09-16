@@ -5,6 +5,7 @@
   * [NodeJS](https://nodejs.org/en/)
   * [Express](https://expressjs.com/)
   * [Mailchimp's API](https://mailchimp.com/developer/)
+  * [SCSS](https://sass-lang.com/)
   
 # 🔌 Installation: 
   ```
