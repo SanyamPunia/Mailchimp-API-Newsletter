@@ -19,3 +19,6 @@
   
 # 📸 Preview Pictures:   
  ![image](https://user-images.githubusercontent.com/35108041/133620447-057b831f-0dab-459f-9d42-78e10fda8644.png)
+
+# ❕ Note
+ * I also included extra designs for Newsletter Landing Page which you can open in Adobe XD.
