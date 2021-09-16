@@ -1,5 +1,5 @@
 # 📮 Mailchimp API Newsletter
-  * A simple Newsletter application made using [Mailchimp's](https://mailchimp.com/) API!
+  * A simple **Responsive** Newsletter application made using [Mailchimp's](https://mailchimp.com/) API!
   
 # 👨‍💻 Technologies/Frameworks used: 
   * [NodeJS](https://nodejs.org/en/)
@@ -16,5 +16,5 @@
   npm start
   ```
   
-# 📸 Preview Pictures: 
-  
+# 📸 Preview Pictures:   
+ ![image](https://user-images.githubusercontent.com/35108041/133620447-057b831f-0dab-459f-9d42-78e10fda8644.png)
